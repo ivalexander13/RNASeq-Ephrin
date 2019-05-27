@@ -1,0 +1,149 @@
+# Running align.sh
+# Running init_dir.sh: Initializing directories
+# Finished running init_dir.sh
+mkdir: cannot create directory ‘./data/aligned_sams’: File exists
+# Working on file a1...
+Time loading forward index: 00:00:25
+Time loading reference: 00:00:08
+Multiseed full-index search: 00:23:18
+28609507 reads; of these:
+  28609507 (100.00%) were unpaired; of these:
+    4022280 (14.06%) aligned 0 times
+    14938077 (52.21%) aligned exactly 1 time
+    9649150 (33.73%) aligned >1 times
+85.94% overall alignment rate
+Time searching: 00:23:26
+Overall time: 00:23:52
+# Working on file a2...
+Time loading forward index: 00:00:45
+Time loading reference: 00:00:05
+Multiseed full-index search: 00:14:01
+18835765 reads; of these:
+  18835765 (100.00%) were unpaired; of these:
+    3056181 (16.23%) aligned 0 times
+    10656460 (56.58%) aligned exactly 1 time
+    5123124 (27.20%) aligned >1 times
+83.77% overall alignment rate
+Time searching: 00:14:07
+Overall time: 00:14:52
+# Working on file b1...
+Time loading forward index: 00:00:27
+Time loading reference: 00:00:05
+Multiseed full-index search: 00:22:01
+31760835 reads; of these:
+  31760835 (100.00%) were unpaired; of these:
+    4927330 (15.51%) aligned 0 times
+    19221864 (60.52%) aligned exactly 1 time
+    7611641 (23.97%) aligned >1 times
+84.49% overall alignment rate
+Time searching: 00:22:07
+Overall time: 00:22:34
+# Working on file b2...
+Time loading forward index: 00:01:47
+Time loading reference: 00:00:07
+Multiseed full-index search: 00:19:40
+26826472 reads; of these:
+  26826472 (100.00%) were unpaired; of these:
+    4154989 (15.49%) aligned 0 times
+    15807566 (58.93%) aligned exactly 1 time
+    6863917 (25.59%) aligned >1 times
+84.51% overall alignment rate
+Time searching: 00:19:48
+Overall time: 00:21:37
+# Working on file c1...
+Time loading forward index: 00:00:27
+Time loading reference: 00:00:05
+Multiseed full-index search: 00:19:30
+26630474 reads; of these:
+  26630474 (100.00%) were unpaired; of these:
+    3898323 (14.64%) aligned 0 times
+    14844080 (55.74%) aligned exactly 1 time
+    7888071 (29.62%) aligned >1 times
+85.36% overall alignment rate
+Time searching: 00:19:36
+Overall time: 00:20:03
+# Working on file c2...
+Time loading forward index: 00:00:28
+Time loading reference: 00:00:05
+Multiseed full-index search: 00:18:20
+26636200 reads; of these:
+  26636200 (100.00%) were unpaired; of these:
+    3610241 (13.55%) aligned 0 times
+    15817462 (59.38%) aligned exactly 1 time
+    7208497 (27.06%) aligned >1 times
+86.45% overall alignment rate
+Time searching: 00:18:26
+Overall time: 00:18:54
+# Working on file d1...
+Time loading forward index: 00:00:27
+Time loading reference: 00:00:05
+Multiseed full-index search: 00:22:00
+33857144 reads; of these:
+  33857144 (100.00%) were unpaired; of these:
+    5389570 (15.92%) aligned 0 times
+    21113908 (62.36%) aligned exactly 1 time
+    7353666 (21.72%) aligned >1 times
+84.08% overall alignment rate
+Time searching: 00:22:07
+Overall time: 00:22:34
+# Working on file d2...
+Time loading forward index: 00:00:26
+Time loading reference: 00:00:05
+Multiseed full-index search: 00:14:13
+20566946 reads; of these:
+  20566946 (100.00%) were unpaired; of these:
+    3699338 (17.99%) aligned 0 times
+    11384343 (55.35%) aligned exactly 1 time
+    5483265 (26.66%) aligned >1 times
+82.01% overall alignment rate
+Time searching: 00:14:18
+Overall time: 00:14:44
+# Working on file e1...
+Time loading forward index: 00:00:27
+Time loading reference: 00:00:05
+Multiseed full-index search: 00:15:59
+24849902 reads; of these:
+  24849902 (100.00%) were unpaired; of these:
+    3854061 (15.51%) aligned 0 times
+    15860412 (63.82%) aligned exactly 1 time
+    5135429 (20.67%) aligned >1 times
+84.49% overall alignment rate
+Time searching: 00:16:04
+Overall time: 00:16:31
+# Working on file e2...
+Time loading forward index: 00:00:28
+Time loading reference: 00:00:05
+Multiseed full-index search: 00:15:58
+23954433 reads; of these:
+  23954433 (100.00%) were unpaired; of these:
+    3617790 (15.10%) aligned 0 times
+    14629051 (61.07%) aligned exactly 1 time
+    5707592 (23.83%) aligned >1 times
+84.90% overall alignment rate
+Time searching: 00:16:03
+Overall time: 00:16:31
+# Working on file f1...
+Time loading forward index: 00:00:27
+Time loading reference: 00:00:05
+Multiseed full-index search: 00:24:06
+36711257 reads; of these:
+  36711257 (100.00%) were unpaired; of these:
+    5855611 (15.95%) aligned 0 times
+    23199465 (63.19%) aligned exactly 1 time
+    7656181 (20.86%) aligned >1 times
+84.05% overall alignment rate
+Time searching: 00:24:12
+Overall time: 00:24:39
+# Working on file f2...
+Time loading forward index: 00:00:27
+Time loading reference: 00:00:04
+Multiseed full-index search: 00:13:33
+20627964 reads; of these:
+  20627964 (100.00%) were unpaired; of these:
+    3062202 (14.84%) aligned 0 times
+    12557863 (60.88%) aligned exactly 1 time
+    5007899 (24.28%) aligned >1 times
+85.16% overall alignment rate
+Time searching: 00:13:39
+Overall time: 00:14:06
+# Finished running align.sh

@@ -1,0 +1,4 @@
+# all:
+- eliminate the \r errors and try to make the scripts look cleaner (no excess #'s).
+
+# align.sh:

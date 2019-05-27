@@ -1,0 +1,13 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	Galaxy1-[DSCY001A_S16_L003_R1_001	E:\GDrive\Cal Extras\schaffer_lab\RNA-Seq-Project\Data\RNAseq-miniproject\fastqc-reports\Galaxy1-[DSCY001A_S16_L003_R1_001.fastq.gz]_fastqc.zip
+FastQC	all_sections	Galaxy10-[DSCY001E_S20_L003_R1_001	E:\GDrive\Cal Extras\schaffer_lab\RNA-Seq-Project\Data\RNAseq-miniproject\fastqc-reports\Galaxy10-[DSCY001E_S20_L003_R1_001.fastq.gz]_fastqc.zip
+FastQC	all_sections	Galaxy11-[DSCY001F_S21_L003_R1_001	E:\GDrive\Cal Extras\schaffer_lab\RNA-Seq-Project\Data\RNAseq-miniproject\fastqc-reports\Galaxy11-[DSCY001F_S21_L003_R1_001.fastq.gz]_fastqc.zip
+FastQC	all_sections	Galaxy12-[DSCY001G_S22_L003_R1_001	E:\GDrive\Cal Extras\schaffer_lab\RNA-Seq-Project\Data\RNAseq-miniproject\fastqc-reports\Galaxy12-[DSCY001G_S22_L003_R1_001.fastq.gz]_fastqc.zip
+FastQC	all_sections	Galaxy2-[DSCY001B_S17_L003_R1_001	E:\GDrive\Cal Extras\schaffer_lab\RNA-Seq-Project\Data\RNAseq-miniproject\fastqc-reports\Galaxy2-[DSCY001B_S17_L003_R1_001.fastq.gz]_fastqc.zip
+FastQC	all_sections	Galaxy3-[DSCY001C_S18_L003_R1_001	E:\GDrive\Cal Extras\schaffer_lab\RNA-Seq-Project\Data\RNAseq-miniproject\fastqc-reports\Galaxy3-[DSCY001C_S18_L003_R1_001.fastq.gz]_fastqc.zip
+FastQC	all_sections	Galaxy4-[DSCY001H_S23_L003_R1_001	E:\GDrive\Cal Extras\schaffer_lab\RNA-Seq-Project\Data\RNAseq-miniproject\fastqc-reports\Galaxy4-[DSCY001H_S23_L003_R1_001.fastq.gz]_fastqc.zip
+FastQC	all_sections	Galaxy5-[DSCY001I_S24_L003_R1_001	E:\GDrive\Cal Extras\schaffer_lab\RNA-Seq-Project\Data\RNAseq-miniproject\fastqc-reports\Galaxy5-[DSCY001I_S24_L003_R1_001.fastq.gz]_fastqc.zip
+FastQC	all_sections	Galaxy6-[DSCY001J_S25_L003_R1_001	E:\GDrive\Cal Extras\schaffer_lab\RNA-Seq-Project\Data\RNAseq-miniproject\fastqc-reports\Galaxy6-[DSCY001J_S25_L003_R1_001.fastq.gz]_fastqc.zip
+FastQC	all_sections	Galaxy7-[DSCY001K_S26_L003_R1_001	E:\GDrive\Cal Extras\schaffer_lab\RNA-Seq-Project\Data\RNAseq-miniproject\fastqc-reports\Galaxy7-[DSCY001K_S26_L003_R1_001.fastq.gz]_fastqc.zip
+FastQC	all_sections	Galaxy8-[DSCY001L_S27_L003_R1_001	E:\GDrive\Cal Extras\schaffer_lab\RNA-Seq-Project\Data\RNAseq-miniproject\fastqc-reports\Galaxy8-[DSCY001L_S27_L003_R1_001.fastq.gz]_fastqc.zip
+FastQC	all_sections	Galaxy9-[DSCY001D_S19_L003_R1_001	E:\GDrive\Cal Extras\schaffer_lab\RNA-Seq-Project\Data\RNAseq-miniproject\fastqc-reports\Galaxy9-[DSCY001D_S19_L003_R1_001.fastq.gz]_fastqc.zip
