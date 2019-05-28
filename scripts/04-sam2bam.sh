@@ -25,6 +25,5 @@ done #
 #fi #
 #
 #
-'''
 # Announce the end
 echo "# Finished running sam2bam.sh"
