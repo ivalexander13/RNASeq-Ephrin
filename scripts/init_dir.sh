@@ -13,7 +13,7 @@ dir_sams=./data/aligned_sams
 
 # Define files here.
 f_refgenome=./data/reference_genome/rn6.fa
-f_annotation=./data/reference_genome/ann.gff3
+f_annotation=./data/ann_ucsc.gtf
 
 # Tool paths here.
 seqmonk_import=./tools/SeqMonk/seqmonk_import
