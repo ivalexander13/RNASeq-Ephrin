@@ -1,0 +1,333 @@
+# Running index_bam.sh
+# Running init_dir.sh: Initializing directories
+# Finished running init_dir.sh
+mkdir: cannot create directory ‘./data/sorted_bams’: File exists
+# Working on file a1_aligned...
+[bam_sort_core] merging from 17 files and 1 in-memory blocks...
+INFO    2019-05-29 23:52:03     BuildBamIndex
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    BuildBamIndex -I ./data/sorted_bams/a1_aligned_sorted.bam
+**********
+
+
+23:52:04.509 WARN  NativeLibraryLoader - Unable to find native library: native/gkl_compression.dll
+23:52:04.511 WARN  NativeLibraryLoader - Unable to find native library: native/gkl_compression.dll
+[Wed May 29 23:52:04 PDT 2019] BuildBamIndex INPUT=./data/sorted_bams/a1_aligned_sorted.bam    VERBOSITY=INFO QUIET=f
+alse VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=fa
+lse GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Wed May 29 23:52:04 PDT 2019] Executing as ivale@Sincosite on Windows 10 10.0 amd64; Java HotSpot(TM) 64-Bit Server
+VM 1.8.0_211-b12; Deflater: Jdk; Inflater: Jdk; Provider GCS is not available; Picard version: 2.20.2-SNAPSHOT
+23:52:04.592 WARN  IntelDeflaterFactory - IntelInflater is not supported, using Java.util.zip.Inflater
+INFO    2019-05-29 23:53:26     BuildBamIndex   Successfully wrote bam index file E:\GDrive\cal-extras\schaffer_lab\R
+NASeq-Ephrin\.\data\sorted_bams\a1_aligned_sorted.bai
+[Wed May 29 23:53:26 PDT 2019] picard.sam.BuildBamIndex done. Elapsed time: 1.36 minutes.
+Runtime.totalMemory()=174587904
+# Working on file a2_aligned...
+[bam_sort_core] merging from 10 files and 1 in-memory blocks...
+INFO    2019-05-29 23:58:59     BuildBamIndex
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    BuildBamIndex -I ./data/sorted_bams/a2_aligned_sorted.bam
+**********
+
+
+23:58:59.307 WARN  NativeLibraryLoader - Unable to find native library: native/gkl_compression.dll
+23:58:59.309 WARN  NativeLibraryLoader - Unable to find native library: native/gkl_compression.dll
+[Wed May 29 23:58:59 PDT 2019] BuildBamIndex INPUT=./data/sorted_bams/a2_aligned_sorted.bam    VERBOSITY=INFO QUIET=f
+alse VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=fa
+lse GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Wed May 29 23:58:59 PDT 2019] Executing as ivale@Sincosite on Windows 10 10.0 amd64; Java HotSpot(TM) 64-Bit Server
+VM 1.8.0_211-b12; Deflater: Jdk; Inflater: Jdk; Provider GCS is not available; Picard version: 2.20.2-SNAPSHOT
+23:58:59.390 WARN  IntelDeflaterFactory - IntelInflater is not supported, using Java.util.zip.Inflater
+INFO    2019-05-29 23:59:46     BuildBamIndex   Successfully wrote bam index file E:\GDrive\cal-extras\schaffer_lab\R
+NASeq-Ephrin\.\data\sorted_bams\a2_aligned_sorted.bai
+[Wed May 29 23:59:46 PDT 2019] picard.sam.BuildBamIndex done. Elapsed time: 0.79 minutes.
+Runtime.totalMemory()=223346688
+# Working on file b1_aligned...
+[bam_sort_core] merging from 15 files and 1 in-memory blocks...
+INFO    2019-05-30 00:08:45     BuildBamIndex
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    BuildBamIndex -I ./data/sorted_bams/b1_aligned_sorted.bam
+**********
+
+
+00:08:45.613 WARN  NativeLibraryLoader - Unable to find native library: native/gkl_compression.dll
+00:08:45.615 WARN  NativeLibraryLoader - Unable to find native library: native/gkl_compression.dll
+[Thu May 30 00:08:45 PDT 2019] BuildBamIndex INPUT=./data/sorted_bams/b1_aligned_sorted.bam    VERBOSITY=INFO QUIET=f
+alse VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=fa
+lse GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Thu May 30 00:08:45 PDT 2019] Executing as ivale@Sincosite on Windows 10 10.0 amd64; Java HotSpot(TM) 64-Bit Server
+VM 1.8.0_211-b12; Deflater: Jdk; Inflater: Jdk; Provider GCS is not available; Picard version: 2.20.2-SNAPSHOT
+00:08:45.666 WARN  IntelDeflaterFactory - IntelInflater is not supported, using Java.util.zip.Inflater
+INFO    2019-05-30 00:10:02     BuildBamIndex   Successfully wrote bam index file E:\GDrive\cal-extras\schaffer_lab\R
+NASeq-Ephrin\.\data\sorted_bams\b1_aligned_sorted.bai
+[Thu May 30 00:10:02 PDT 2019] picard.sam.BuildBamIndex done. Elapsed time: 1.28 minutes.
+Runtime.totalMemory()=164626432
+# Working on file b2_aligned...
+[bam_sort_core] merging from 13 files and 1 in-memory blocks...
+INFO    2019-05-30 00:18:07     BuildBamIndex
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    BuildBamIndex -I ./data/sorted_bams/b2_aligned_sorted.bam
+**********
+
+
+00:18:08.051 WARN  NativeLibraryLoader - Unable to find native library: native/gkl_compression.dll
+00:18:08.052 WARN  NativeLibraryLoader - Unable to find native library: native/gkl_compression.dll
+[Thu May 30 00:18:08 PDT 2019] BuildBamIndex INPUT=./data/sorted_bams/b2_aligned_sorted.bam    VERBOSITY=INFO QUIET=f
+alse VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=fa
+lse GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Thu May 30 00:18:08 PDT 2019] Executing as ivale@Sincosite on Windows 10 10.0 amd64; Java HotSpot(TM) 64-Bit Server
+VM 1.8.0_211-b12; Deflater: Jdk; Inflater: Jdk; Provider GCS is not available; Picard version: 2.20.2-SNAPSHOT
+00:18:08.107 WARN  IntelDeflaterFactory - IntelInflater is not supported, using Java.util.zip.Inflater
+INFO    2019-05-30 00:19:14     BuildBamIndex   Successfully wrote bam index file E:\GDrive\cal-extras\schaffer_lab\R
+NASeq-Ephrin\.\data\sorted_bams\b2_aligned_sorted.bai
+[Thu May 30 00:19:14 PDT 2019] picard.sam.BuildBamIndex done. Elapsed time: 1.11 minutes.
+Runtime.totalMemory()=168296448
+# Working on file c1_aligned...
+[bam_sort_core] merging from 14 files and 1 in-memory blocks...
+INFO    2019-05-30 00:27:32     BuildBamIndex
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    BuildBamIndex -I ./data/sorted_bams/c1_aligned_sorted.bam
+**********
+
+
+00:27:32.695 WARN  NativeLibraryLoader - Unable to find native library: native/gkl_compression.dll
+00:27:32.696 WARN  NativeLibraryLoader - Unable to find native library: native/gkl_compression.dll
+[Thu May 30 00:27:32 PDT 2019] BuildBamIndex INPUT=./data/sorted_bams/c1_aligned_sorted.bam    VERBOSITY=INFO QUIET=f
+alse VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=fa
+lse GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Thu May 30 00:27:32 PDT 2019] Executing as ivale@Sincosite on Windows 10 10.0 amd64; Java HotSpot(TM) 64-Bit Server
+VM 1.8.0_211-b12; Deflater: Jdk; Inflater: Jdk; Provider GCS is not available; Picard version: 2.20.2-SNAPSHOT
+00:27:32.782 WARN  IntelDeflaterFactory - IntelInflater is not supported, using Java.util.zip.Inflater
+INFO    2019-05-30 00:28:40     BuildBamIndex   Successfully wrote bam index file E:\GDrive\cal-extras\schaffer_lab\R
+NASeq-Ephrin\.\data\sorted_bams\c1_aligned_sorted.bai
+[Thu May 30 00:28:40 PDT 2019] picard.sam.BuildBamIndex done. Elapsed time: 1.13 minutes.
+Runtime.totalMemory()=198180864
+# Working on file c2_aligned...
+[bam_sort_core] merging from 14 files and 1 in-memory blocks...
+INFO    2019-05-30 00:36:24     BuildBamIndex
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    BuildBamIndex -I ./data/sorted_bams/c2_aligned_sorted.bam
+**********
+
+
+00:36:25.221 WARN  NativeLibraryLoader - Unable to find native library: native/gkl_compression.dll
+00:36:25.223 WARN  NativeLibraryLoader - Unable to find native library: native/gkl_compression.dll
+[Thu May 30 00:36:25 PDT 2019] BuildBamIndex INPUT=./data/sorted_bams/c2_aligned_sorted.bam    VERBOSITY=INFO QUIET=f
+alse VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=fa
+lse GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Thu May 30 00:36:25 PDT 2019] Executing as ivale@Sincosite on Windows 10 10.0 amd64; Java HotSpot(TM) 64-Bit Server
+VM 1.8.0_211-b12; Deflater: Jdk; Inflater: Jdk; Provider GCS is not available; Picard version: 2.20.2-SNAPSHOT
+00:36:25.284 WARN  IntelDeflaterFactory - IntelInflater is not supported, using Java.util.zip.Inflater
+INFO    2019-05-30 00:37:30     BuildBamIndex   Successfully wrote bam index file E:\GDrive\cal-extras\schaffer_lab\R
+NASeq-Ephrin\.\data\sorted_bams\c2_aligned_sorted.bai
+[Thu May 30 00:37:30 PDT 2019] picard.sam.BuildBamIndex done. Elapsed time: 1.09 minutes.
+Runtime.totalMemory()=170393600
+# Working on file d1_aligned...
+[bam_sort_core] merging from 15 files and 1 in-memory blocks...
+INFO    2019-05-30 00:46:33     BuildBamIndex
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    BuildBamIndex -I ./data/sorted_bams/d1_aligned_sorted.bam
+**********
+
+
+00:46:33.805 WARN  NativeLibraryLoader - Unable to find native library: native/gkl_compression.dll
+00:46:33.807 WARN  NativeLibraryLoader - Unable to find native library: native/gkl_compression.dll
+[Thu May 30 00:46:33 PDT 2019] BuildBamIndex INPUT=./data/sorted_bams/d1_aligned_sorted.bam    VERBOSITY=INFO QUIET=f
+alse VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=fa
+lse GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Thu May 30 00:46:33 PDT 2019] Executing as ivale@Sincosite on Windows 10 10.0 amd64; Java HotSpot(TM) 64-Bit Server
+VM 1.8.0_211-b12; Deflater: Jdk; Inflater: Jdk; Provider GCS is not available; Picard version: 2.20.2-SNAPSHOT
+00:46:33.847 WARN  IntelDeflaterFactory - IntelInflater is not supported, using Java.util.zip.Inflater
+INFO    2019-05-30 00:47:46     BuildBamIndex   Successfully wrote bam index file E:\GDrive\cal-extras\schaffer_lab\R
+NASeq-Ephrin\.\data\sorted_bams\d1_aligned_sorted.bai
+[Thu May 30 00:47:46 PDT 2019] picard.sam.BuildBamIndex done. Elapsed time: 1.21 minutes.
+Runtime.totalMemory()=161480704
+# Working on file d2_aligned...
+[bam_sort_core] merging from 10 files and 1 in-memory blocks...
+INFO    2019-05-30 00:53:54     BuildBamIndex
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    BuildBamIndex -I ./data/sorted_bams/d2_aligned_sorted.bam
+**********
+
+
+00:53:55.052 WARN  NativeLibraryLoader - Unable to find native library: native/gkl_compression.dll
+00:53:55.054 WARN  NativeLibraryLoader - Unable to find native library: native/gkl_compression.dll
+[Thu May 30 00:53:55 PDT 2019] BuildBamIndex INPUT=./data/sorted_bams/d2_aligned_sorted.bam    VERBOSITY=INFO QUIET=f
+alse VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=fa
+lse GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Thu May 30 00:53:55 PDT 2019] Executing as ivale@Sincosite on Windows 10 10.0 amd64; Java HotSpot(TM) 64-Bit Server
+VM 1.8.0_211-b12; Deflater: Jdk; Inflater: Jdk; Provider GCS is not available; Picard version: 2.20.2-SNAPSHOT
+00:53:55.116 WARN  IntelDeflaterFactory - IntelInflater is not supported, using Java.util.zip.Inflater
+INFO    2019-05-30 00:54:47     BuildBamIndex   Successfully wrote bam index file E:\GDrive\cal-extras\schaffer_lab\R
+NASeq-Ephrin\.\data\sorted_bams\d2_aligned_sorted.bai
+[Thu May 30 00:54:47 PDT 2019] picard.sam.BuildBamIndex done. Elapsed time: 0.88 minutes.
+Runtime.totalMemory()=270532608
+# Working on file e1_aligned...
+[bam_sort_core] merging from 11 files and 1 in-memory blocks...
+INFO    2019-05-30 01:01:16     BuildBamIndex
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    BuildBamIndex -I ./data/sorted_bams/e1_aligned_sorted.bam
+**********
+
+
+01:01:16.601 WARN  NativeLibraryLoader - Unable to find native library: native/gkl_compression.dll
+01:01:16.603 WARN  NativeLibraryLoader - Unable to find native library: native/gkl_compression.dll
+[Thu May 30 01:01:16 PDT 2019] BuildBamIndex INPUT=./data/sorted_bams/e1_aligned_sorted.bam    VERBOSITY=INFO QUIET=f
+alse VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=fa
+lse GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Thu May 30 01:01:16 PDT 2019] Executing as ivale@Sincosite on Windows 10 10.0 amd64; Java HotSpot(TM) 64-Bit Server
+VM 1.8.0_211-b12; Deflater: Jdk; Inflater: Jdk; Provider GCS is not available; Picard version: 2.20.2-SNAPSHOT
+01:01:16.655 WARN  IntelDeflaterFactory - IntelInflater is not supported, using Java.util.zip.Inflater
+INFO    2019-05-30 01:02:07     BuildBamIndex   Successfully wrote bam index file E:\GDrive\cal-extras\schaffer_lab\R
+NASeq-Ephrin\.\data\sorted_bams\e1_aligned_sorted.bai
+[Thu May 30 01:02:07 PDT 2019] picard.sam.BuildBamIndex done. Elapsed time: 0.85 minutes.
+Runtime.totalMemory()=197132288
+# Working on file e2_aligned...
+[bam_sort_core] merging from 11 files and 1 in-memory blocks...
+INFO    2019-05-30 01:08:48     BuildBamIndex
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    BuildBamIndex -I ./data/sorted_bams/e2_aligned_sorted.bam
+**********
+
+
+01:08:48.705 WARN  NativeLibraryLoader - Unable to find native library: native/gkl_compression.dll
+01:08:48.707 WARN  NativeLibraryLoader - Unable to find native library: native/gkl_compression.dll
+[Thu May 30 01:08:48 PDT 2019] BuildBamIndex INPUT=./data/sorted_bams/e2_aligned_sorted.bam    VERBOSITY=INFO QUIET=f
+alse VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=fa
+lse GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Thu May 30 01:08:48 PDT 2019] Executing as ivale@Sincosite on Windows 10 10.0 amd64; Java HotSpot(TM) 64-Bit Server
+VM 1.8.0_211-b12; Deflater: Jdk; Inflater: Jdk; Provider GCS is not available; Picard version: 2.20.2-SNAPSHOT
+01:08:48.756 WARN  IntelDeflaterFactory - IntelInflater is not supported, using Java.util.zip.Inflater
+INFO    2019-05-30 01:09:41     BuildBamIndex   Successfully wrote bam index file E:\GDrive\cal-extras\schaffer_lab\R
+NASeq-Ephrin\.\data\sorted_bams\e2_aligned_sorted.bai
+[Thu May 30 01:09:41 PDT 2019] picard.sam.BuildBamIndex done. Elapsed time: 0.89 minutes.
+Runtime.totalMemory()=171442176
+# Working on file f1_aligned...
+[bam_sort_core] merging from 16 files and 1 in-memory blocks...
+INFO    2019-05-30 01:19:00     BuildBamIndex
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    BuildBamIndex -I ./data/sorted_bams/f1_aligned_sorted.bam
+**********
+
+
+01:19:00.667 WARN  NativeLibraryLoader - Unable to find native library: native/gkl_compression.dll
+01:19:00.669 WARN  NativeLibraryLoader - Unable to find native library: native/gkl_compression.dll
+[Thu May 30 01:19:00 PDT 2019] BuildBamIndex INPUT=./data/sorted_bams/f1_aligned_sorted.bam    VERBOSITY=INFO QUIET=f
+alse VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=fa
+lse GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Thu May 30 01:19:00 PDT 2019] Executing as ivale@Sincosite on Windows 10 10.0 amd64; Java HotSpot(TM) 64-Bit Server
+VM 1.8.0_211-b12; Deflater: Jdk; Inflater: Jdk; Provider GCS is not available; Picard version: 2.20.2-SNAPSHOT
+01:19:00.730 WARN  IntelDeflaterFactory - IntelInflater is not supported, using Java.util.zip.Inflater
+INFO    2019-05-30 01:20:15     BuildBamIndex   Successfully wrote bam index file E:\GDrive\cal-extras\schaffer_lab\R
+NASeq-Ephrin\.\data\sorted_bams\f1_aligned_sorted.bai
+[Thu May 30 01:20:15 PDT 2019] picard.sam.BuildBamIndex done. Elapsed time: 1.24 minutes.
+Runtime.totalMemory()=192937984
+# Working on file f2_aligned...
+[bam_sort_core] merging from 10 files and 1 in-memory blocks...
+INFO    2019-05-30 01:25:59     BuildBamIndex
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    BuildBamIndex -I ./data/sorted_bams/f2_aligned_sorted.bam
+**********
+
+
+01:25:59.560 WARN  NativeLibraryLoader - Unable to find native library: native/gkl_compression.dll
+01:25:59.561 WARN  NativeLibraryLoader - Unable to find native library: native/gkl_compression.dll
+[Thu May 30 01:25:59 PDT 2019] BuildBamIndex INPUT=./data/sorted_bams/f2_aligned_sorted.bam    VERBOSITY=INFO QUIET=f
+alse VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=fa
+lse GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Thu May 30 01:25:59 PDT 2019] Executing as ivale@Sincosite on Windows 10 10.0 amd64; Java HotSpot(TM) 64-Bit Server
+VM 1.8.0_211-b12; Deflater: Jdk; Inflater: Jdk; Provider GCS is not available; Picard version: 2.20.2-SNAPSHOT
+01:25:59.609 WARN  IntelDeflaterFactory - IntelInflater is not supported, using Java.util.zip.Inflater
+INFO    2019-05-30 01:26:46     BuildBamIndex   Successfully wrote bam index file E:\GDrive\cal-extras\schaffer_lab\R
+NASeq-Ephrin\.\data\sorted_bams\f2_aligned_sorted.bai
+[Thu May 30 01:26:46 PDT 2019] picard.sam.BuildBamIndex done. Elapsed time: 0.78 minutes.
+Runtime.totalMemory()=188219392
+# Finished running align.sh
+
+real    104m19.192s
+user    75m40.266s
+sys     9m43.359s

@@ -1,0 +1,10 @@
+STARTING...
+Untitled./results/QoRTs_results/e1_aligned_sorted//UntitledUNKNOWNUNKNOWN
+charactercharactercharactercharactercharactercharacter
+Note: no input.read.pair.count column found. This column is optional, but without it mapping rates cannot be calculated.
+Note: no multi.mapped.read.pair.count column found. This column is optional, but without it (depending on how your aligner implements multi-mapping) multi-mapping rates might not be plotted.
+WARNING: QoRTs run absent! Dir not found: ./results/QoRTs_results/e1_aligned_sorted//!
+Error in read.in.results.data.with.decoder(decoder = decoder.final, infile.dir = infile.dir,  : 
+  Fatal error: QoRTs run data not found! Use autodetectMissingSamples = TRUE to automatically skip these runs
+Calls: read.qc.results.data -> read.in.results.data.with.decoder
+Execution halted

@@ -1,0 +1,81 @@
+Starting QoRTs v1.3.6 (Compiled Tue Sep 25 11:21:46 EDT 2018)
+Starting time: (Thu May 30 01:36:19 PDT 2019)
+INPUT_COMMAND(QC)
+  INPUT_ARG(infile)=./data/sorted_bams/f1_aligned_sorted.bam
+  INPUT_ARG(gtffile)=./data/reference_genome/ann.gff3
+  INPUT_ARG(outdir)=./results/QoRTs_results/f1_aligned_sorted/
+  INPUT_ARG(singleEnded)=true
+  INPUT_ARG(minMAPQ)=40
+  INPUT_ARG(generatePlots)=true
+  INPUT_ARG(summaryFileName)=.summary.txt
+  INPUT_ARG(verbose)=true
+Creating Directory: ./results/QoRTs_results/f1_aligned_sorted/
+Created Log File: ./results/QoRTs_results/f1_aligned_sorted//QC.rXH33DhCXWJk.log
+NOTE: maximum allocation memory = 1.908932608 gigabytes.
+    This might be ok, or might cause OutOfMemoryExceptions later.
+    For most large datasets/genomes at least 4 gb is recommended.
+    (Actual required memory may be less than this.)
+    To increase the memory maximum, include the parameter -Xmx
+    in between the java command and the -jar parameter.
+    For example: to increase the memory maximum to 4 gigabytes:
+        java -Xmx4G -jar /path/to/jar/QoRTs.jar QC ...
+Starting QC
+[Time: 2019-05-30 01:36:19] [Mem usage: [25MB / 128MB]] [Elapsed Time: 00:00:00.0000]
+QoRTs is Running in single-end mode.
+Note: read-sorting is irrelevant in single-ended mode.
+No parameter --genomeFA found.
+Running functions: CigarOpDistribution, GCDistribution, GeneCalcs, JunctionCalcs, NVC, 
+        QualityScoreDistribution, StrandCheck, chromCounts, 
+        cigarLocusCounts, readLengthDistro, writeBiotypeCounts, 
+        writeClippedNVC, writeDESeq, writeDEXSeq, writeGeneBody, 
+        writeGeneCounts, writeGenewiseGeneBody, 
+        writeJunctionSeqCounts, writeKnownSplices, 
+        writeNovelSplices, writeSpliceExon
+Checking first 10000 reads. Checking SAM file for formatting errors...
+   Stats on the first 10000 reads:
+        Num Reads Primary Map:    8000
+        Num Reads Paired-ended:   0
+        Num Reads mapped pair:    0
+        Num Pair names found:     0
+        Num Pairs matched:        0
+        Read Seq length:          51 to 51
+        Unclipped Read length:    51 to 51
+        Final maxReadLength:      51
+        maxPhredScore:            41
+        minPhredScore:            2
+Done checking first 10000 reads. No major problems detected!
+SAMRecord Reader Generated. Read length: 51.
+[Time: 2019-05-30 01:36:21] [Mem usage: [191MB / 532MB]] [Elapsed Time: 00:00:01.0989]
+> Init GeneCalcs Utility
+<====== FATAL ERROR! ======>
+----------------------------
+     Error message: "FATAL ERROR: OutputGtfLine checkFmt: Line has too few columns!
+"
+     Stack Trace:
+        java.lang.Thread.getStackTrace(Unknown Source)
+        internalUtils.Reporter$.error(Reporter.scala:331)
+        internalUtils.GtfTool$GtfLine.fmtError(GtfTool.scala:135)
+        internalUtils.GtfTool$InputGtfLine.lz_cells$lzycompute(GtfTool.scala:289)
+        internalUtils.GtfTool$InputGtfLine.lz_cells(GtfTool.scala:287)
+        internalUtils.GtfTool$InputGtfLine.cells(GtfTool.scala:292)
+        internalUtils.GtfTool$InputGtfLine.lz_featureType$lzycompute(GtfTool.scala:298)
+        internalUtils.GtfTool$InputGtfLine.lz_featureType(GtfTool.scala:298)
+        internalUtils.GtfTool$InputGtfLine.featureType(GtfTool.scala:299)
+        qcUtils.qcGtfAnnotationBuilder$.$anonfun$qcGetGeneCounts_readGtf$1(qcGtfAnnotationBuilder.scala:267)
+        qcUtils.qcGtfAnnotationBuilder$.$anonfun$qcGetGeneCounts_readGtf$1$adapted(qcGtfAnnotationBuilder.scala:267)
+        qcUtils.qcGtfAnnotationBuilder$.$anonfun$buildGenomicArrayOfSets_fromGtf$1(qcGtfAnnotationBuilder.scala:281)
+        qcUtils.qcGtfAnnotationBuilder$.$anonfun$buildGenomicArrayOfSets_fromGtf$1$adapted(qcGtfAnnotationBuilder.scala:280)
+        scala.collection.Iterator.foreach(Iterator.scala:929)
+        scala.collection.Iterator.foreach$(Iterator.scala:929)
+        internalUtils.GtfTool$GtfReader.foreach(GtfTool.scala:453)
+        qcUtils.qcGtfAnnotationBuilder$.buildGenomicArrayOfSets_fromGtf(qcGtfAnnotationBuilder.scala:280)
+        qcUtils.qcGtfAnnotationBuilder$.qcUtils$qcGtfAnnotationBuilder$$qcGetGeneCounts_readGtf(qcGtfAnnotationBuilder.scala:267)
+        qcUtils.qcGtfAnnotationBuilder.geneArray$lzycompute(qcGtfAnnotationBuilder.scala:41)
+        qcUtils.qcGtfAnnotationBuilder.geneArray(qcGtfAnnotationBuilder.scala:41)
+        qcUtils.qcGetGeneCounts.<init>(qcGetGeneCounts.scala:369)
+        qcUtils.runAllQC$.runOnSeqFile(runAllQC.scala:1226)
+        qcUtils.runAllQC$.run(runAllQC.scala:970)
+        qcUtils.runAllQC$allQC_runner.run(runAllQC.scala:680)
+        runner.runner$.main(runner.scala:98)
+        runner.runner.main(runner.scala)
+<==========================>
