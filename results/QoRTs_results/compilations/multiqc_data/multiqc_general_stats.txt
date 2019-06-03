@@ -1,0 +1,13 @@
+Sample	QoRTs_mqc-generalstats-qorts-Genes_PercentWithNonzeroCounts	QoRTs_mqc-generalstats-qorts-NumberOfChromosomesCovered
+a1_aligned_sorted	14.89064547247779	185.0
+a2_aligned_sorted	11.363080068535556	125.0
+b1_aligned_sorted	18.89479216160569	232.0
+b2_aligned_sorted	18.451326796538666	224.0
+c1_aligned_sorted	15.98491065900681	180.0
+c2_aligned_sorted	17.030221876664793	186.0
+d1_aligned_sorted	19.873871539026393	249.0
+d2_aligned_sorted	17.192921832030294	203.0
+e1_aligned_sorted	18.85591695103163	228.0
+e2_aligned_sorted	18.42109052164773	213.0
+f1_aligned_sorted	19.786042359581298	247.0
+f2_aligned_sorted	16.77105380617108	189.0

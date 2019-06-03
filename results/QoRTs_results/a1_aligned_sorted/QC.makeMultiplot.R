@@ -1,12 +1,13 @@
 # This is an automatically-generated R script designed to make a simple multiplot and/or pdf report for a sample.
 message("STARTING...");
 library(QoRTs);
-unique.ID <- c("Untitled");
-qc.data.dir <- c("mnt/e/GDrive/cal-extras/schaffer_lab/RNASeq-Ephrin/results/QoRTs_results/a1_aligned_sorted/");
+library(png);
+unique.ID <- c("a1_aligned_sorted");
+qc.data.dir <- c(".");
 qc.data.prefix <- c("");
 decoder.raw <- data.frame(unique.ID = as.character(unique.ID), qc.data.dir = as.character(qc.data.dir), qc.data.prefix=as.character(qc.data.prefix),stringsAsFactors=FALSE);
 decoder <- completeAndCheckDecoder(decoder = decoder.raw)
-message(decoder);
+show(decoder);
 message(lapply(names(decoder), function(n){ class(decoder[[n]]) }));
 res <- read.qc.results.data("", decoder = decoder, calc.DESeq2 = FALSE, calc.edgeR = FALSE, autodetectMissingSamples = TRUE);
 makeMultiPlot.basic(res, outfile = "./results/QoRTs_results/a1_aligned_sorted//QC.multiPlot.png", plotter.params = list(std.color = "blue", std.lines.lwd = 4), plot.device.name = "png");

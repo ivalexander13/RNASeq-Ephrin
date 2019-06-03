@@ -1,0 +1,27 @@
+# This is an automatically-generated R script designed to make a simple multiplot and/or pdf report for a sample.
+message("STARTING...");
+library(QoRTs);
+library(png);
+
+unique.ID <- list.files(pattern = "sorted");
+list.files("sorted")
+qc.data.prefix <- c("");
+decoder.raw <- data.frame(unique.ID = as.character(unique.ID), qc.data.prefix=as.character(qc.data.prefix), stringsAsFactors=FALSE);
+decoder.raw$input.read.pair.count <- read.csv(file = '../alignment_summary/alignment_summary.csv', header = TRUE)[[2]];
+decoder.raw$multi.mapped.read.pair.count <- read.csv(file = '../alignment_summary/alignment_summary.csv', header = TRUE)[[5]];
+decoder <- completeAndCheckDecoder(decoder = decoder.raw);
+show(decoder);
+
+message(lapply(names(decoder), function(n){ class(decoder[[n]]) }));
+res <- read.qc.results.data("", decoder = decoder, calc.DESeq2 = FALSE, calc.edgeR = FALSE, autodetectMissingSamples = TRUE);
+makeMultiPlot.colorBySample(res,
+                            outfile.dir = "./",
+                            plot.device.name = "pdf");
+makeMultiPlot.colorBySample(res,
+                            outfile.dir = "./",
+                            plot.device.name = "png",
+                            separatePlots = TRUE);
+message("DONE...");
+
+
+
